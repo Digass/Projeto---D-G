@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    background-color: transparent;
+}
+h1{
+    text-align: center;
+    font-size: 60px;
+    display: flex;
+    color: rgba(255, 255, 255, 0.308)
+}
+.Logo{
+    height: 70px;
+}
+
+.centroMenu{
+    width: 30%;
+    height: 100px;
+    border-radius: 110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    background-color: hsla(293, 67%, 64%, 0.678);
+
+}
+.meio{
+    border: solid 2px black;
+    border-radius: 160px;
+    color: white;
+    width: 157px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.meio:hover{
+    text-decoration: underline;
+}
+
+body{
+    background-image: url('../img/Pikachu.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.digiteMeio{
+    width: 22%;
+    height: 100px;
+    background-repeat: no-repeat;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    border: solid 2px black;
+    border-radius: 116px;
+    background-size: cover;
+    font-size: 28px;
+    margin-top: 25px;
+}
+
+.parteBaixo{
+    width: 100%;
+    height: 9vh;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    border-radius: 33px;
+    position: fixed;
+    bottom: 0;
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    display: flex;
+    color: white;
+    height: 50%;
+    padding: 15px;
+}
+.imgFinal {
+    position: fixed;
+    bottom: 1;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+    padding: 12px;
+}
+
+.pokemon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+  }
+  
+.pokemon-picture{
+    max-width: 100%;
+}
+
+.digiteMeio-input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    outline: none;
+    font-family: pokemon hollow;
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+
+.digiteMeio-button{
+    width: 10%;
+    margin-right: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'pokemon hollow';
+    src: url(../Pokemon\ Solid.ttf);
+}
+
+@media (max-width: 768px){
+    .centroMenu{
+        width: 50%;
+    }
+    .digiteMeio{
+        width: 50%;
+    }
+    .digiteMeio-input{
+        font-size: 24px;
+    }
+    .digiteMeio-button{
+        width: 20%;
+    }
+    .meio{
+        width: 100px;
+        height: 30px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 30px;
+    }
+}
